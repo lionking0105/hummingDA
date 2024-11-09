@@ -475,7 +475,7 @@ class DATradingBot:
 			self.static_windows[4].content.text = f'value\n{data4["Last Price"]}\n{data4["Last Qty"]}\n{data4["Bid Price"]}\n{data4["Bid Qty"]}\n{data4["Ask Price"]}\n{data4["Ask Qty"]}\n{data4["Volume"]}\n{data4["PreSettlement"]}\n{data4["High"]}\n{data4["Low"]}\n{data4["Open"]}'
 			self.static_windows[5].content.text = f'value\n{data5["Last Price"]}\n{data5["Last Qty"]}\n{data5["Bid Price"]}\n{data5["Bid Qty"]}\n{data5["Ask Price"]}\n{data5["Ask Qty"]}\n{data5["Volume"]}\n{data5["PreSettlement"]}\n{data5["High"]}\n{data5["Low"]}\n{data5["Open"]}'
 			self.static_windows[6].content.text = f'value\n{data6["Last Price"]}\n{data6["Last Qty"]}\n{data6["Bid Price"]}\n{data6["Bid Qty"]}\n{data6["Ask Price"]}\n{data6["Ask Qty"]}\n{data6["Volume"]}\n{data6["PreSettlement"]}\n{data6["High"]}\n{data6["Low"]}\n{data6["Open"]}'
-			self.result_window.content.text = f'{s[-1]}\n{ra[-1]}\n{rb[-1]}\n{pnl[-1]}\n{x[-1]}\n{q[-1]}'
+			# self.result_window.content.text = f'{s[-1]}\n{ra[-1]}\n{rb[-1]}\n{pnl[-1]}\n{x[-1]}\n{q[-1]}'
 			# print(f'{s[-1]}\n{ra[-1]}\n{rb[-1]}\n{pnl[-1]}\n{x[-1]}\n{q[-1]}')
 			await asyncio.sleep(1)
 	
